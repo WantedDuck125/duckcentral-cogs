@@ -1,0 +1,19 @@
+{
+  "author": [
+    "WantedDuck125"
+  ],
+  "name": "Duck Central Cogs",
+  "short": "Custom cogs for a personal Redbot instance.",
+  "description": "A small collection of custom cogs, beginning with a manual Twitch go-live announcement cog.",
+  "install_msg": "Thanks for adding Duck Central Cogs! Install the go_live cog with `[p]cog install duckcentralcogs go_live`, then load it with `[p]load go_live`. See the README for setup.",
+  "requirements": [],
+  "tags": [
+    "twitch",
+    "announcements",
+    "utility"
+  ],
+  "min_bot_version": "3.5.0",
+  "max_bot_version": "3.5.99",
+  "type": "COG",
+  "end_user_data_statement": "This cog stores per-server configuration only: role ID, channel ID, Twitch URL, embed title, and default announcement message. It does not store personal user data."
+}
